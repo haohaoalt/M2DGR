@@ -1,5 +1,5 @@
 
-
+# 多源数据集整合，日期2022年7月4日
 
 # M2DGR： a Multi-modal and Multi-scenario SLAM Dataset for Ground Robots 
 ## Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories),  Ang Li, [Tao Li](https://github.com/bryantaoli), Wenxian Yu, and [Danping Zou](https://github.com/danping)
