@@ -1,8 +1,8 @@
 
 # 多源数据集整合，日期2022年7月4日
 
-# M2DGR： a Multi-modal and Multi-scenario SLAM Dataset for Ground Robots 
-## Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories),  Ang Li, [Tao Li](https://github.com/bryantaoli), Wenxian Yu, and [Danping Zou](https://github.com/danping)
+# M2DGR： a Multi-modal and Multi-scenario SLAM Dataset for Ground Robots
+## First Author: [Jie Yin](https://github.com/sjtuyinjie?tab=repositories)
 <div align=center>
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/bigsix.jpg" width="800px">
 
@@ -11,9 +11,16 @@
 
 
 ## Updates
-### 2022.9.13 welcome to follow and star our new work: Ground-Challenge at https://github.com/sjtuyinjie/Ground-Challenge. Feel free to propose issues if needed.
 
-### 2022.06.20   Thanks Jialin Liu (Fudan University) for his work to test LVI-SAM on M2DGR. Following is the link of their modified LVI-SAM version [link](https://github.com/electech6/LVI-SAM_detailed_comments). Refer [Link](https://github.com/SJTU-ViSYS/M2DGR/blob/main/LVISAM-modified.md) for detailed information. And the configuration files for LVI-SAM on M2DGR are given in [launch file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/module_sam.launch),[camera file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_camera.yaml) and [lidar file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_lidar.yaml). Feel free to test the demo on your machine!
+
+### 2023.4.22 some great work which have cited our M2DGR dataset.
+1. [Efficient 3D Deep LiDAR Odometry](https://ieeexplore.ieee.org/abstract/document/9893384?casa_token=nt4pH4Uf4VAAAAAA:MN3ToBfpuxiXf4Q4rHsviWamV3yfkyYhKmMztrQSdec_No80c4Hvtb3ZELI2ym__HXqqd2NM2KGm)
+2. [GNSS Odometry: Precise Trajectory Estimation Based on Carrier Phase Cycle Slip Estimation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9795679)
+3. [Multimodal neural radiance field](https://www.amazon.science/publications/multimodal-neural-radiance-field)
+
+
+
+### 2022.06.20   Thanks Jialin Liu (Fudan University) for his work to test LVI-SAM on M2DGR. Following is the link of their modified LVI-SAM version [link](https://github.com/electech6/LVI-SAM_detailed_comments).  And the configuration files for LVI-SAM on M2DGR are given in [launch file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/module_sam.launch),[camera file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_camera.yaml) and [lidar file](https://github.com/SJTU-ViSYS/M2DGR/blob/main/my_params_lidar.yaml). Feel free to test the demo on your machine!
 
 <center>
 <img src="https://github.com/shuttworth/Record_Datasets_For_LVI-SAM/blob/main/img/gate_01_v1.gif" width="70%">
@@ -362,7 +369,7 @@ We write a ROS driver for UVC cameras to record our thermal-infrared image.
 
 ## 6.FUTURE PLANS
 In the future, we plan to update and extend our project from time to time, striving to build a comprehensive SLAM benchmark similar to the KITTI dataset for ground robots.
-### If you have any suggestions or questions, do not hesitate to propose an issue. And if you find our dataset helpful in your research, a simple star is the best affirmation for us.
+
 
 ## 7.ACKNOWLEGEMENT
 This work is supported by NSFC(62073214). Authors from SJTU hereby express our appreciation.
